@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gues_number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="infor">Я загадав число від 1 до 100.
+            Спробуй вгадати!
+        </div>
+        <input type="number" id="gues" placeholder="?" min="1" max="100" autofocus>
+        <br>
+        <button onclick="checkGues()">Вгадати</button>
+        <button onclick="newGame()">Нова гра</button>
+        <div id="message"></div>
+        <div id="attempt">Спроб:0</div>
+    </div>
+
+    
+</body>
+<script src="script.js"></script>
+</html>

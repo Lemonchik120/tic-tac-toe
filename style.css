@@ -1,0 +1,98 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #7281ff, #55d2f1);
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background: rgba(231, 220, 59, 0.521);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 8px 32px rgb(255, 255, 255);
+    border: 1px solid rgb(141, 228, 255);
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 1.8rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.info {
+    font-size: 1.1rem;
+    margin: 0 0 1.8rem;
+    opacity: 0.9;
+    line-height: 1.45;
+}
+
+input[type="number"] {
+    width: 140px;
+    padding: 14px;
+    font-size: 1.6rem;
+    text-align: center;
+    border: 2px solid rgba(0, 255, 213, 0.3);
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.12);
+    color: white;
+    margin: 0.8rem 0 1.4rem;
+    transition: all 0.2s;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #65d2f3;
+    box-shadow: 0 0 0 4px rgba(102, 197, 161, 0.25);
+}
+
+button {
+    padding: 14px 32px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #95cebb, #a0b8a7);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.25s;
+    margin: 0 8px 1rem;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#message {
+    font-size: 1.3rem;
+    min-height: 1.8em;
+    margin: 1.2rem 0 0.8rem;
+    font-weight: 500;
+}
+
+.success  { color: #aaffaa; }
+.error    { color: #ffaaaa; }
+.hint     { color: #ffeeaa; }
+
+#attempts {
+    font-size: 1.05rem;
+    opacity: 0.85;
+    margin-top: 1rem;
+}
+
+.hidden { display: none; }
